@@ -33,10 +33,6 @@ nosetests.xml
 *.err
 logs/
 
-# Docker
-docker-compose.override.yml
-Dockerfile
-.dockerignore
 
 # MacOS files
 .DS_Store
