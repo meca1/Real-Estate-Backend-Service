@@ -35,6 +35,17 @@ Sets up the Python environment, installs dependencies, and runs the application.
 ### docker-compose.yml
 
 Defines Docker services for the application and MySQL database, including environment variables and service links.
+**.env**
+
+The .env file contains environment variables used by the Docker containers. This file is crucial for configuring the application’s connection settings and other environment-specific configurations. Here is an example of the .env file:
+   ```bash
+        # Database connection settings
+      DATABASE_HOST=localhost
+      DATABASE_PORT=6033
+      DATABASE_USER=habi_user
+      DATABASE_PASSWORD=habi_password
+      DATABASE_NAME=habi_db
+   ```
 
 ### app/
 
