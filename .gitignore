@@ -24,7 +24,6 @@ nosetests.xml
 .cache
 
 # MySQL database files
-*.sql
 *.db
 
 # Logs
